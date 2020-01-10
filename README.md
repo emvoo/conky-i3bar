@@ -20,6 +20,8 @@ Nicely looking i3bar using [conky](https://github.com/brndnmtthws/conky) as data
 
 1. Create simlink to [conkyrc](conkyrc)
 
+        ln -s .config/i3/conky-i3bar/conkyrc .conkyrc
+
 1. Add/replace contents of your i3 config to contain  
       
         bar {
