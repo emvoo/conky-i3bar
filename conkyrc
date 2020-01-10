@@ -32,7 +32,7 @@ conky.config = {
     -- set to 1 to disable averaging
     cpu_avg_samples = 2,
 
-    lua_load = '$HOME/.config/i3/conky-i3bar/scripts/level.lua',
+    lua_load = '$HOME/.conky/scripts/level.lua',
 
     -- { "full_text": "${font FontAwesome:size=10} ${totaldown wlp7s0b1}" , "color": "\#B7E0E2" },
     -- { "full_text": "${font FontAwesome:size=10} ${totalup wlp7s0b1}" , "color": "\#B7E0E2" },

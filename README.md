@@ -14,12 +14,16 @@ Nicely looking i3bar using [conky](https://github.com/brndnmtthws/conky) as data
     
         git clone git@github.com:emvoo/conky-i3bar.git $HOME/.config/i3
 
-2. Create simlink to [conkyrc](conkyrc)
+1. Copy scripts dir to .conky directory  
 
-3. Add/replace contents of your i3 config to contain  
+        cp -r $HOME/.config/i3/conky-i3bar/scripts $HOME/.conky 
+
+1. Create simlink to [conkyrc](conkyrc)
+
+1. Add/replace contents of your i3 config to contain  
       
         bar {
             status_command $HOME/.config/i3/conky-i3bar/conky-i3bar
         }
 
-4. Reload your i3 (usually $mod + R)
+1. Reload your i3 (usually $mod + R)
