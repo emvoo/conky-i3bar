@@ -1,6 +1,7 @@
 Nicely looking i3bar using [conky](https://github.com/brndnmtthws/conky) as data feed.
 
-![screenshot](bar.png)
+![screenshot](img/bar.png)
+![screenshot](img/bar_orange.png)
 
 # Reuirements
 
